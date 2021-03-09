@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'vue'
+        label 'master'
     }
 
     stages {
