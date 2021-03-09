@@ -1,5 +1,7 @@
 pipeline {
-    agent vue
+    agent {
+        label 'vue'
+    }
 
     stages {
         stage('Build') {
