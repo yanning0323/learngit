@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent vue
 
     stages {
         stage('Build') {
